@@ -1,0 +1,59 @@
+# 🛍️ Sales and Performance Analysis Dashboard
+
+This Power BI dashboard analyzes and visualizes the performance of sales and gross margin (SGM) across different dimensions such as time, store type, and product divisions.
+
+## 📌 Objective
+
+To provide actionable insights by visualizing:
+- Sales trends over time
+- Store and division-wise performance
+- Outlet type efficiency
+- Gross margin contributions
+
+---
+
+## 📊 Dashboard Overview
+
+| Visual | Description |
+|--------|-------------|
+| **1. Sum of SGM by Month** | Shows the monthly distribution of Gross Margin (SGM). Peak observed in December, indicating strong end-of-year performance. |
+| **2. Sum of Sales by Outlet Type** | Compares sales across outlet types (Mall, Strip, Outlet). Malls lead in performance. |
+| **3. Sum of Sales by Month** | Monthly sales distribution confirming December as the best-performing month. |
+| **4. Sum of Sales by Super Division** | Treemap view of divisions (GIRLS, BOYS, ACCESSORIES, KIDS). GIRLS is the top category. |
+| **5. Sum of Sales by Year** | Waterfall chart indicating steady growth from 2016 to 2019, with flattening in 2020. |
+| **6. Sum of Sales by Month Start Date** | Line chart displaying sales trends — visible decline over time, prompting further analysis. |
+| **7. Sum of Sales and SGM by Super Division and Store** | Bubble chart comparing sales and SGM across stores and divisions. Reveals outliers and efficiency patterns. |
+
+---
+
+## 🔍 Key Insights
+
+- **December** is the top-performing month for both Sales and SGM.
+- **Malls** are the most profitable outlet type.
+- **GIRLS** category contributes the highest sales.
+- Sales trend shows **year-on-year growth** till 2019, followed by stabilization in 2020.
+- Store-level analysis helps identify high sales but low SGM performance areas.
+
+---
+
+## 📈 Suggested Additional Visual
+
+> ✅ **Average SGM by Outlet Type**  
+A bar or donut chart that compares how effectively each outlet type converts sales into margins.  
+This can help in understanding profitability, not just revenue.
+
+---
+
+## 📂 File Details
+
+- Power BI Report: `Sales_Dashboard.pbix`
+- Image Snapshot: `dashboard_overview.png`
+
+---
+
+## 🧠 How to Use
+
+1. Open the Power BI `.pbix` file.
+2. Explore filters for deeper insights (e.g., by year, store type).
+3. Use tooltips and interactivity for drilling down into data.
+
